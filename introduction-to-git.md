@@ -127,8 +127,6 @@ Git とは GitHub のことではない
 
     git config --global user.email "you@example.com"
 
-GitHub に登録しているメールアドレスにしておくとよい
-
 ## Git の流れ (1)
 
 ![bg](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/git-flow1.svg)
@@ -309,6 +307,16 @@ SSH キーを作成し、SSH URL を使ってクローンすることで回避�
 1. `git commit -m "○○を変更"`
 1. `git push`
 1. GitHub へ反映されているか確認
+
+## .gitignore
+
+
+
+## GUI で操作可能なツール
+
+- Visual Studio Code https://code.visualstudio.com/
+- GitHub Desktop https://desktop.github.com/
+- TortoiseGit https://tortoisegit.org/
 
 ## 終わり
 
