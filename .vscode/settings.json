@@ -1,0 +1,7 @@
+{
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.exportType": "html",
+    "markdown.marp.themes": [
+        "assets/theme.css"
+    ]
+}

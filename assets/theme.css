@@ -1,0 +1,81 @@
+/* @theme s2 */
+
+@import 'gaia';
+@import url(https://use.fontawesome.com/releases/v5.14.0/css/all.css);
+
+section
+{
+  font-size: 40px;
+  font-family: 'Segoe UI', 'Helvetica', 'Arial', sans-serif;
+  background-color: #fff;
+/*  background-image: url(assets/hero-background2.png); */
+}
+
+section::after
+{
+  content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+section.lead h2
+{
+  font-size: 100px;
+}
+
+p,
+blockquote
+{
+  margin: 0.5em 0 0 0;
+}
+
+code
+{
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
+  padding: 0 .4em;
+  color: inherit;
+  background-color: rgba(27, 31, 35, .05);
+/*    background-color: rgb(243, 244, 244); */
+  border-radius: 10px;
+}
+
+samp
+{
+  font-family: 'SFMono-Regular', 'Consolas', 'Liberation Mono', 'Menlo', monospace;
+  padding: 0 .2em;
+  background-color: #fcf8e3;
+  border-radius: 10px;
+}
+
+pre > code
+{
+  color: inherit;
+  background-color: rgba(27, 31, 35, .05);
+}
+
+pre
+{
+  margin: 0.5em 0 0 0;
+  border-radius: 10px;
+}
+
+ul,
+ol
+{
+  margin: 0.5em 0;
+}
+
+em
+{
+  padding: 0 .2em;
+  font-style: inherit;
+  background-color: rgba(255, 255, 35, .1);
+  border-radius: 10px;
+}
+
+strong
+{
+  padding: 0 .2em;
+  font-style: inherit;
+  font-weight: inherit;
+  background-color: rgba(255, 31, 35, .1);
+  border-radius: 10px;
+}
