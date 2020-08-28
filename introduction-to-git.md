@@ -291,6 +291,30 @@ master
 
 GitHub でリポジトリを作成後 `git clone` すれば `git init` でのローカルリポジトリ作成は不要
 
+## <!-- fit --> 毎回ユーザー名/パスワードを求められる場合
+
+SSH キーを作成し、SSH URL を使ってクローンすることで回避可能
+
+事前に GitHub へ SSH キーを登録しておく必要がある
+
+## SSH キーを作成し GitHub へ登録
+
+1. `ssh-keygen -t rsa` で SSH キーを作成
+1. https://github.com/ を開く
+1. サインインしていない場合は右上から Sign in
+1. 右上のアイコン > Settings
+1. 左のメニュー > SSH and GPG keys
+1. New SSH key
+1. Title に名前、Key に作成した id_rsa.pub の内容をコピペ
+
+## SSH URL を使ってクローン
+
+1. GitHub のリポジトリ画面を開く
+1. 緑色の <samp>Code</samp> をクリック
+1. <samp>Use SSH</samp> をクリック
+1. <samp>Clone with SSH</samp> の部分に表示された URL をコピー
+1. `git clone git@github.com:xxx/xxx.git`
+
 ## Git の流れ (3)
 
 ![bg](assets/git-flow3.svg)
@@ -312,15 +336,3 @@ GitHub でリポジトリを作成後 `git clone` すれば `git init` でのロ
 ## 終わり
 
 <!-- _class: lead -->
-
-<!--
-## SSH キーを作成し GitHub へ登録
-
-1. `ssh-keygen -t rsa` で SSH キーを作成
-1. https://github.com/ を開く
-1. サインインしていない場合は右上から Sign in
-1. 右上のアイコン > Settings
-1. 左のメニュー > SSH and GPG keys
-1. New SSH key
-1. Title に名前、Key に作成した id_rsa.pub の内容をコピペ
--->
