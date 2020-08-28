@@ -21,6 +21,21 @@ section.lead h2
   font-size: 100px;
 }
 
+section.font-size-small
+{
+  font-size: 38px;
+}
+
+section.font-size-xsmall
+{
+  font-size: 32px;
+}
+
+section.first-child-center p:first-of-type
+{
+  text-align: center;
+}
+
 p,
 blockquote
 {

@@ -87,14 +87,7 @@ Git とは GitHub のことではない
 
 ## <!-- fit --> Git for Windows インストール時の注意 (1)
 
-<style scoped>
-  p:first-of-type {
-    text-align: center;
-  }
-  section {
-    font-size: 32px;
-  }
-</style>
+<!-- _class: font-size-small first-child-center -->
 
 ![Git for Windows インストール時の注意](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/install-git-for-windows.drawio.svg)
 
@@ -184,12 +177,6 @@ GitHub に登録しているメールアドレスにしておくとよい
 
 ## リポジトリにリモートリポジトリを設定
 
-<style scoped>
-  section {
-    font-size: 38px;
-  }
-</style>
-
 1. `git remote add origin https://github.com/xxx/xxx.git`
    でリモートリポジトリを追加
 1. `git remote -v` で追加されたことを確認
@@ -221,11 +208,7 @@ master
 
 ## もう一度ファイルを編集
 
-<style scoped>
-  section {
-    font-size: 38px;
-  }
-</style>
+<!-- _class: font-size-small -->
 
 1. ファイルを編集
 1. `git diff` で差分を表示
@@ -248,11 +231,7 @@ master
 
 ## 他のユーザーをリポジトリへ招待
 
-<style scoped>
-  section {
-    font-size: 38px;
-  }
-</style>
+<!-- _class: font-size-small -->
 
 1. GitHub のリポジトリ画面を開く
 1. <samp>Settings</samp> > <samp>Manage access</samp>
