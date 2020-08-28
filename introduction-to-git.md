@@ -6,9 +6,6 @@ headingDivider: 2
 paginate: true
 ---
 
-<style>
-</style>
-
 # <!-- fit --> Git を使ったバージョン管理
 
 <!-- _class: lead -->
