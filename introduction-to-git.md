@@ -1,5 +1,6 @@
 ---
 marp: true
+title: Git を使ったバージョン管理
 theme: s2
 headingDivider: 2
 paginate: true
