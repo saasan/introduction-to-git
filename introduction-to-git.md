@@ -19,7 +19,7 @@ paginate: true
 
 ## よくある問題
 
-![bg right fit](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/file-name-version.png)
+![bg right fit](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/file-name-version.png)
 
 - どれが最新かわからない！
 - 誰が何を変えたのかわからない！
@@ -63,15 +63,15 @@ Git とは GitHub のことではない
 
 ## Git の流れ (1)
 
-![bg](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/git-flow1.svg)
+![bg](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/git-flow1.svg)
 
 ## Git の流れ (2)
 
-![bg](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/git-flow2.svg)
+![bg](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/git-flow2.svg)
 
 ## Git の流れ (3)
 
-![bg](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/git-flow3.svg)
+![bg](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/git-flow3.svg)
 
 ## リポジトリとは？
 
@@ -89,7 +89,7 @@ Git とは GitHub のことではない
 
 <!-- _class: font-size-small first-child-center -->
 
-![Git for Windows インストール時の注意](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/install-git-for-windows.drawio.svg)
+![Git for Windows インストール時の注意](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/install-git-for-windows.drawio.svg)
 
 他のオプションを選ぶと自動的に改行コードが変換され、毎回ファイル全体が変更点として認識されます。
 
@@ -129,7 +129,7 @@ Git とは GitHub のことではない
 
 ## Git の流れ (1)
 
-![bg](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/git-flow1.svg)
+![bg](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/git-flow1.svg)
 
 ## リポジトリを作成してコミット (1)
 
@@ -225,7 +225,7 @@ master
 
 ## Git の流れ (2)
 
-![bg](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/git-flow2.svg)
+![bg](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/git-flow2.svg)
 
 ## 他のユーザーをリポジトリへ招待
 
@@ -292,7 +292,7 @@ SSH キーを作成し、SSH URL を使ってクローンすることで回避�
 
 ## Git の流れ (3)
 
-![bg](https://raw.githubusercontent.com/yumenosora-system/introduction-to-git/master/assets/git-flow3.svg)
+![bg](https://raw.githubusercontent.com/saasan/introduction-to-git/master/assets/git-flow3.svg)
 
 ## プルして編集
 
