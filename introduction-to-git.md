@@ -308,10 +308,6 @@ SSH キーを作成し、SSH URL を使ってクローンすることで回避�
 1. `git push`
 1. GitHub へ反映されているか確認
 
-## .gitignore
-
-
-
 ## GUI で操作可能なツール
 
 - Visual Studio Code https://code.visualstudio.com/
