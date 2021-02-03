@@ -12,6 +12,9 @@ introduction-to-git.md を変換する。
     npm install
     npm run build
 
+<kbd>npm install</kbd> したあとは Visual Studio Code で
+<kbd>Ctrl + Shift + B</kbd> を押すとビルドできる。
+
 ## GitHub Pages での公開
 
 GitHub Pages での公開用に master ブランチの
