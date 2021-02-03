@@ -6,7 +6,7 @@
         {
             "label": "Marp: Convert to HTML",
             "type": "shell",
-            "command": "npx @marp-team/marp-cli --theme assets/theme.css introduction-to-git.md -o docs/index.html",
+            "command": "npm run build",
             "group": {
               "kind": "build",
               "isDefault": true
