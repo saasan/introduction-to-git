@@ -27,7 +27,7 @@ paginate: true
 ## Git を使えば
 
 - 古いファイルを残す必要がない
-  <i class="fa fa-arrow-right"></i> 最新のファイルがすぐに分かる
+  🡲 最新のファイルがすぐに分かる
 - 誰が何を変更したか分かる
 - 古いバージョンに簡単に戻せる
 - 複数人で同時に編集・統合できる
@@ -38,7 +38,7 @@ paginate: true
 
 Git とは GitHub のことではない
 
-## <i class="fab fa-git-alt"></i> Git と <i class="fab fa-github"></i> GitHub の違い
+## Git と GitHub の違い
 
 - Git: バージョン管理を行うためのアプリ
 - GitHub: Git を使った開発支援サービス
@@ -57,7 +57,7 @@ Git とは GitHub のことではない
 
 インフラはコード
 
-## <!-- fit --> 手順書を元に手作業で構築<br><i class="fa fa-arrow-down"></i><br>手順をコード化して自動構築
+## <!-- fit --> 手順書を元に手作業で構築<br>🡳<br>手順をコード化して自動構築
 
 <!-- _class: lead -->
 
