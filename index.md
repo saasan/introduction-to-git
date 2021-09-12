@@ -155,6 +155,16 @@ Git とは GitHub のことではない
 1. `git status` 再度状態を確認
 1. `git log` 変更履歴を表示
 
+## <!-- fit --> 日本語のファイル名が文字化けする場合
+
+git status などで日本語のファイル名が
+
+    "\343\201\273\343\201\222.txt"
+
+のように文字化けする場合は、以下のコマンドで git の設定を変更する
+
+    git config --global core.quotepath false
+
 ## <!-- fit --> Windows で git log や git diff が文字化けする場合
 
 以下のコマンドで環境変数を設定する
