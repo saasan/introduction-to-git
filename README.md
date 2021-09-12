@@ -5,7 +5,7 @@
 [Marp](https://marp.app/) を使用しているため
 [Marp for VS Code](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 を Visual Studio Code へインストールし
-introduction-to-git.md を変換する。
+index.md を変換する。
 
 または以下のコマンドを実行。
 

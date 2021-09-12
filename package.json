@@ -7,7 +7,7 @@
     "@marp-team/marp-cli": "^0.23.0"
   },
   "scripts": {
-    "build": "npx marp --html --theme assets/theme.css introduction-to-git.md -o docs/index.html"
+    "build": "npx marp --html --theme assets/theme.css index.md -o docs/index.html"
   },
   "repository": {
     "type": "git",
